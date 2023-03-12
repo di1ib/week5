@@ -64,20 +64,24 @@ h2::first-letter { color: blue; }
 p {
     padding: 10px 0;
 }
-#footer {
-    display:flex;
+footer {
+    display: flex;
     flex-direction: column;
     justify-content: center;
 }
-#footer button {
+
+footer button {
     font-family: 'Poiret One', cursive;
     font-weight: 600;
     color: black;
     background-color: #F6F6F6;
     width: 271.24px;
-height: 42px;
-left: 595px;
-top: 4404px;
+    height: 42px;
+    left: 595px;
+    top: 4404px;
+}
+#contacts {
+    text-align: center;
 }
 a:focus { color: blue;}
 a:hover {color: green}
